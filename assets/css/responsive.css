@@ -1,0 +1,96 @@
+/* Pc */
+@media (min-width : 1024px)
+{
+
+}
+
+/* Tablet */
+@media (min-width : 740px) and (max-width:1023px)
+{
+    
+
+}
+/* tablet và mobile */
+@media (max-width : 1023px)
+{
+    .btn{
+        padding: 15px 16px;
+    }
+    .contact-info{
+        line-height: 2.4;
+    }
+    .contact-form .form-control
+    {
+        padding: 15px;
+    }
+    #footer .social-list{
+        font-size: 45px;
+        margin: 0 4px;
+    }
+}
+/* Mobile */
+@media (max-width : 740px)
+{
+    /* class dùng chung cho full nút */
+    .s-col-full{
+        width: 100% !important;
+    }
+    /* bấm bên ngoài nút tour.. cũng chạy dc,
+    nghĩa là kéo cho dài ra */
+    #nav{
+        display: block;
+    }
+    /* cho nút home ngắn lại,
+    lấy con của thg đầu tiên là home */
+    #nav>li:first-child{
+        display: inline-block;
+    }
+    
+    /* cho mấy nút bự lên dễ bấm */
+    #nav li a{
+        padding: 1px 24px;
+    }
+
+    #nav> li 
+    {
+        display: block;
+    }
+    /* hoeejn con more */
+    #nav .subnav{
+        position: initial;
+       
+        background-color: #333;
+    }
+    #nav .subnav a {
+        color:#fff;
+        padding: 5px 70px;
+    }
+    #header{
+        overflow: hidden;
+    }
+    /* cho hiệ nút menu trên mobile */
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    /* ẩn search */
+    #header .search-btn
+    {
+        display: none;
+    }
+    /* cho 3 hình theo hàng dọc */
+    #content .member-item-mobile{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #content .members-img{
+        width: 50%;
+    }
+    /* 3 hình hàng dọc của place */
+    .place-item{
+        width: 100%;
+        margin-top: 16px;
+
+    }
+    
+}
